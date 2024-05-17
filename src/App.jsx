@@ -3,7 +3,7 @@
  import "./index.css";
  import im from "./images/ic - Copy.png";
  import Aboutme from "./component/Aboutme";
-//  import Project from "./component/Project";
+ import Project from "./component/Project";
  import Contact from "./component/Contact";
 
  const App = () => {
@@ -102,9 +102,9 @@
          </button>
        </div>
 
-       {/* <Aboutme /> */}
-       {/* <Project /> */}
-       {/* <Contact /> */}
+       <Aboutme />   
+       <Project />
+       <Contact />
      </div>
    );
  };
